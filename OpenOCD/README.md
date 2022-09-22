@@ -1,4 +1,14 @@
+# Installation
+
+```sh
+sudo apt update
+sudo apt -y dist-upgrade
+sudo apt install openocd
+```
+
 # Flash an ATF1504AS
+
+Use the `sysfsgpio.cfg` file in this directory.
 
 ```sh
 openocd -f sysfsgpio.cfg -c "adapter_khz 400" \
