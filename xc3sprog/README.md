@@ -1,6 +1,8 @@
 # Introduction
 
-[xc3sprog](http://xc3sprog.sourceforge.net/) is a utility to Xilinx CPLDs and FPGAs via JTAG. The default Raspberry Pi repositories have xc3sprog in them, but this version does not support GPIO usage. You instead need to install from source using the instructions below.
+[xc3sprog](http://xc3sprog.sourceforge.net/) is a utility to Xilinx CPLDs and FPGAs via JTAG. It also supports flashing Atmel ATMega and XMega MCUs.
+
+The default Raspberry Pi repositories have xc3sprog in them, but this version does not support GPIO usage. You instead need to install from source using the instructions below.
 
 The default GPIO pinout configuration for xc3sprog is compatible with Pi JTAG.
 
